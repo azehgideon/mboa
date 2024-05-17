@@ -2,6 +2,7 @@ import { Container, Row } from "react-bootstrap";
 import TopPane from "../components/landingpage/toppane";
 import FlashScreen from "../components/landingpage/flashscreen";
 import Footer from "../components/landingpage/footer";
+import MoreContent from "../components/landingpage/morecontent";
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,9 @@ const LandingPage = () => {
         </Row>
         <Row>
           <Footer />
+        </Row>
+        <Row>
+          <MoreContent />
         </Row>
       </Container>
     </div>
