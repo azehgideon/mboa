@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MoreContent = () => {
   return (
-    <div>
+    <div className="mb-5">
       <h3 className="text-center mx-5 font-weight-bold ">
         <span className="text-primary">
           Vous n'êtes pas encore client Orange ?{" "}
