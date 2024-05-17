@@ -1,13 +1,11 @@
 import { Container, Row } from "react-bootstrap";
 import TopPane from "../components/landingpage/toppane";
 import FlashScreen from "../components/landingpage/flashscreen";
+import Footer from "../components/landingpage/footer";
 
-const Footer = () => {
-  return <p>Footer</p>;
-};
 const LandingPage = () => {
   return (
-    <div>
+    <div className="mx-10">
       <Container>
         <Row>
           <TopPane />
